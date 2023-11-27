@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssJG/style_JG.css">
+    <script src="skryptyJG/skrypty_JG.js"></script>
+    <title>Samoloty JG</title>
+</head>
+<body onload="start()">
+    <h1>Samoloty Gładykowskiego</h1>
+ <section id="baseSection">
+    Wybór sekcji <br>
+    <button onclick="showHide(1)">Dodaj pojazd</button>
+    <button onclick="showHide(2)">Zobacz pojazdy</button>
+   
+   <button onclick="showHide(3)">Ilość pojazdów</button>
+   
+
+ </section>
+ <section id="newPlane">
+    Nowy samolot <br>
+    Dodaj samolot: <br> 
+    <select id="selectZastosowanie"></select>
+
+    <br>
+    <br>
+    <select id="selectRozmiar"></select>
+    <br>
+    <br>
+    <select id="selectSilnik"></select>
+    <br>
+    <br>
+    <button onclick="dodajSamolot()">Dodaj samolot</button>
+ </section>
+ <section id="seePlane">
+    Zobacz samoloty <br>
+    <table id="tableOfPlanes">
+        <tr>
+            <th>ID</th>
+            <th>Nazwa</th>
+            <th>Zastosowanie</th>
+            <th>Ilość pasażerów</th>
+            <th>Wielkość</th>
+            <th>Napęd</th>
+            <th>Cena</th>
+            <th>Przycisk</th>
+            <th>Przycisk</th>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <p id="suma"></p>
+ </section>
+ <section id="paramsOfPlane">
+    Parametry samolotów <br>
+    <table id="tableNameOfPlanes">
+        <tr>
+            <th>Airbus</th>
+            <th>Cargo</th>
+            <th>Antonov</th>
+            <th>Boeing</th>
+            <th>Dreamliner</th>
+            <th>Cessna</th>
+            <th>UFO</th>
+            <th>Transportowiec</th>
+        </tr>
+        <tr>
+        <td id="paramAirbus"></td>
+        <td id="paramCargo"></td>
+        <td id="paramAntonov"></td>
+        <td id="paramBoeing"></td>
+        <td id="paramDreamliner"></td>
+        <td id="paramCessna"></td>
+        <td id="paramUFO"></td>
+        <td id="paramTrans"></td>
+
+    </table>
+ </section>
+ 
+ <footer>&copy;Gładykowski 2023</footer>
+</body>
+</html>

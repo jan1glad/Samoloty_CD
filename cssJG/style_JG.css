@@ -1,0 +1,80 @@
+body{
+    text-align: center;
+    font-style: italic;
+    }
+    h1{
+        color: green;
+    }
+    
+    #page_footer{
+    font-style: italic;
+    font-size: small;
+    }
+    
+    #tableOfPlanes {
+        overflow: auto;
+        width: 100%;
+    }
+    
+    #tableOfPlanes table {
+        border: 1px solid #dededf;
+        height: 100%;
+        width: 100%;
+        table-layout: fixed;
+        border-collapse: collapse;
+        border-spacing: 1px;
+        text-align: left;
+    }
+    
+    #tableOfPlanes caption {
+        caption-side: top;
+        text-align: left;
+    }
+    
+    #tableOfPlanes th {
+        border: 1px solid #dededf;
+        background-color: #eceff1;
+        color: #000000;
+        padding: 5px;
+    }
+    
+    #tableOfPlanes td {
+        border: 1px solid #dededf;
+        background-color: #ffffff;
+        color: #000000;
+        padding: 5px;
+    }
+      
+    #tableNameOfPlanes {
+        overflow: auto;
+        width: 100%;
+    }
+    
+    #tableNameOfPlanes table {
+        border: 1px solid #dededf;
+        height: 100%;
+        width: 100%;
+        table-layout: fixed;
+        border-collapse: collapse;
+        border-spacing: 1px;
+        text-align: left;
+    }
+    
+    #tableNameOfPlanes caption {
+        caption-side: top;
+        text-align: left;
+    }
+    
+    #tableNameOfPlanes th {
+        border: 1px solid #dededf;
+        background-color: #eceff1;
+        color: #000000;
+        padding: 5px;
+    }
+    
+    #tableNameOfPlanes td {
+        border: 1px solid #dededf;
+        background-color: #ffffff;
+        color: #000000;
+        padding: 5px;
+    }
